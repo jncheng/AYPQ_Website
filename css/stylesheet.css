@@ -1,0 +1,267 @@
+body, div{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  /*background-color: #fcfcfc;*/
+}
+h1{
+	margin-top: 0;
+	position: relative;
+	text-align: center;
+}
+h1,h2,h3,h4,p{
+	font-weight: 100;
+}
+
+#navigation{
+}
+.header{
+
+}
+.nav_bar{
+	top: 0px;
+	position: fixed;
+	width: 100vw;
+/*	background-color: #eee;
+*/	padding-top: 2vh;
+	padding-bottom: 2vh;
+	z-index: 100;
+}
+.nav{
+	position: relative;
+	display: inline;
+}
+.nav_left, .nav_right{
+}
+.nav_right{
+	z-index: 101;
+	margin-top: 1vw;
+	padding-right: 1vw;
+	padding-bottom: 2vh;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+text-align: right;
+	width: 100%;
+	float: right;
+	opacity: 0;	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.nav_right:hover{
+	opacity: 1;    
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.logo{
+	margin-left: 1vw;
+	height: 69px;
+	width: 129px;
+	background-image: url("images/aypq_logo_grey.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.nav_logo{
+}
+.nav_process{
+
+}
+.nav_projects{
+
+}
+.nav_contact{
+}
+#top{
+
+}
+#projects{
+
+}
+.home_image{
+	margin-top: -3vh;
+	margin-bottom: 25vh;
+	height: 100vh;
+	width: 100vw;
+	background-color: #999;
+	background-image: url("images/aypq_home.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.home_text{
+	text-align: center;
+	color: #fff;
+	margin: 0px;
+}
+.intro_text{
+width: 95%;
+text-align: right;
+margin-top: 90vh;
+}
+.intro_text1, .intro_text2, .intro_text3, .intro_text4{
+	opacity: 0;
+	position: absolute;
+	top: 50vh;
+	width: 100%;
+	text-align: center;
+}
+.intro_img1, .intro_img2, .intro_img3, .intro_img4{
+	opacity: 0;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	background-color: #ababab;
+	top: 0;
+	left: 0;
+	border: 1px solid black;
+}
+.intro_img1{
+	background-image: url("images/before_house.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.intro_img2{
+	background-image: url("images/after_house.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.intro_img3{
+	background-image: url("images/before_den.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.intro_img4{
+	background-image: url("images/after_den.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*.intro_img1{
+	left: 12.5vw;
+}
+.intro_img2{
+	left: 32.5vw;
+}
+.intro_img3{
+	left: 52.5vw;
+}
+.intro_img4{
+	left:	72.5vw;
+}*/
+.projects{
+	width: 70vw;
+	margin: auto;
+/*	text-align: center;
+*//*	background-color: #eee;
+*/}
+.commercial_buildings{
+	margin-top: 5vh;
+}
+/*.project{
+	top: 30%;
+}*/
+.project1, .project2, .project3, .project4{
+	width: 16vw;
+	height: 16vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+	background-color: #a8a8a8;
+	position: relative;
+	display: inline-block;
+	background-image: url("images/project1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* --- Process --- */
+.process{
+	height: 100vh;
+	width: 70vw;
+	margin: auto;
+	position: relative;
+/*	background-color: #eee;
+*/}
+.personality{
+	margin-top: 10%;
+	width: 20vw;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+}
+.perf_logo{
+	width: 12vw;
+	height: 12vw;
+	margin: auto;
+	background-color: #a8a8a8;
+	border-radius: 6vw;
+	background-image: url("images/performance_icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+.align_left{
+	text-align: left;
+}
+.h1_values{
+	margin-top: 25%;
+}
+/* --- Contact --- */
+.contact{
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+/*	background-color: #eee;
+*/}
+.contact_info{
+	position: relative;
+	display: inline-block;
+	width: 27vw;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+.company_info{
+	margin-left: 18vw;
+}
+.personal_info{
+	margin-right: 15vw;
+	float: right;
+}
+.contact_image{
+	width: 100%;
+	margin-top: 7vh;
+	height: 60vh;
+	background-color: #a8a8a8;
+	background-image: url("images/contact_image.png");
+}
+/* --- Footer --- */
+.footer{
+	width: 100vw;
+	background-color: #eee;
+	margin-bottom: 0px;
+	padding-top: 5vh;
+	padding-bottom: 2vh;
+}
+.footer_details{
+	position: relative;
+	display: inline-block;
+	width: 20vw;
+/*	background-color: #aaa;
+*/	margin-left: 1vw;
+	margin-right: 1vw;
+}
+.footer_projects{
+	margin-left: 22vw;
+}
+.p_footer{
+	margin: 1vh;
+	margin-left: 0;
+}
+.copyright{
+	text-align: center;
+}
